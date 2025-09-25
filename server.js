@@ -29,7 +29,7 @@ app.get('/', (req, res) => {
     <h3>Image server</h3>
     <p>Place images in <code>${IMAGE_DIR}</code> and fetch them at <code>/image/sample_image.svg</code>.</p>
     <h4>When consuming the image in app/bff please use the vpn client address not localhost. </h4>
-    <h5>Eg. - http://191.177.214.217:8000/image/fasting.svg </h5>
+    <h5>Eg. - http://191.177.214.217:8000/image/sample_image.svg </h5>
   `);
 });
 
