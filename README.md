@@ -13,7 +13,7 @@ This project is a tiny Node.js/Express image server that serves static files fro
   ```
   http://localhost:8000/image/<your-file-name.ext>
   ```
-* Example given in your HTML: `http://191.177.214.217:8000/image/fasting.svg` (you mentioned using the VPN client address instead of `localhost`).
+* Example given in your HTML: `http://191.177.214.217:8000/image/fasting.svg` (Use the VPN client address instead of `localhost` else it image won't load on app).
 * Images are served from the `images` directory (created automatically by the server if missing).
 
 ---
