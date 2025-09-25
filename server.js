@@ -16,7 +16,7 @@ app.use(cors());
 
 // Serve images at /image/<filename>
 app.use('/image', express.static(IMAGE_DIR, {
-  extensions: ['png', 'jpg', 'jpeg', 'gif', 'webp', 'svg'],
+  extensions: ['png', 'jpg', 'jpeg', 'gif', 'webp', 'svg', 'json'],
   index: false,
   setHeaders: (res, filePath) => {
     // cache for 1 day
